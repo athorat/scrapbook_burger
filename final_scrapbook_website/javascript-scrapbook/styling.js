@@ -33,16 +33,30 @@ $('.myMenu > li').bind('mouseover', openSubMenu);
 		function closeSubMenu() {
 			$(this).find('ul').css('visibility', 'hidden');	
 		};
-		/*
-		$("#button").click(function(){
-		var name=$("#firstname").val();
-		alert(name);
-		};
-		
-		*/
+		 $('a img').animate({
+                opacity: .4
+            });
+
+            $('a img').hover(function () {
+                $(this).stop().animate({
+                    opacity: 1
+                });
+
+            }, function () {
+                $(this).stop().animate({
+                    opacity: .4
+                });
+            });
 
 
 });
+
+
+
+
+
+
+
 
 
 
