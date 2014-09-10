@@ -10,8 +10,8 @@ function loadCustomerDetails(){
 		
             // $(#result).setTemplate("{$T.dealNo}");
             $("#resultDiv").html('<span>Loading.........</span>');
-			alert("Loading.............");
-			alert("dealNO:"+deal.dealNO);
+		//	alert("Loading.............");
+		//	alert("dealNO:"+deal.dealNO);
             $("#resultDiv").setTemplate(html);
 
             $("#resultDiv").processTemplate(deal);

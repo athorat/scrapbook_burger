@@ -29,11 +29,11 @@
                       ]
                   };
                   var id = this.id;
-                  alert(id);
+            //      alert(id);
                   var source = $("#template").html();
-                  alert(source);
+            //      alert(source);
                   var template = Handlebars.compile(source);
-                  alert(template);
+           //       alert(template);
                   var placeHolder = $("#resultDiv");
                   var html = template(data.deal[id]);
                   placeHolder.html(html);
