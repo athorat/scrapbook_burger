@@ -45,6 +45,32 @@ function validateForm()
 	$("#2").html("");
 	}
 	
+	var c_passwd = $("#re_password").val();
+  if(c_passwd != (passwd))
+  {
+  $("#re_password").focus();
+  $("#10").html("password does'nt match")
+  return false;
+  }
+  else
+  {
+  $("#10").html("");
+  }
+	
+	
+	
+	var img = $("#image").val();
+	if(img=="")
+	{
+	$("#image").focus();
+	$("#3").html("enter image");
+	return false;
+	}
+	else
+	{
+	$("#3").html("");
+	}
+	
 	var numberpattern= /^[0-9]/;
 	
 	var dprice = $("#price").val();
@@ -57,18 +83,6 @@ function validateForm()
 	else
 	{
 	$("#4").html("");
-	}
-	
-	var img = $("#image").val();
-	if(img=="")
-	{
-	$("#image").focus();
-	$("#3").html("enter image");
-	return false;
-	}
-	else
-	{
-	$("#3").html("");
 	}
 	
 	var d_discount = $("#discount").val();
