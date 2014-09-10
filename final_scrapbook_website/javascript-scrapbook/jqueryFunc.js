@@ -38,7 +38,7 @@ $("#radiobtn input[type=radio]").each(function(i){
 		if (typeof(Storage) != "undefined") {
 		// Store
 		localStorage.setItem("fn",x);
-		alert(x);
+	//	alert(x);
 		// Retrieve
 		//alert(+localStorage.getItem("fn"));
 		}
@@ -64,6 +64,6 @@ $("#radiobtn input[type=radio]").each(function(i){
 	
 function showCustomer(){
 		var y =localStorage.getItem("fn");
-		alert(y);
+	//	alert(y);
 		document.getElementById("cid").innerHTML =y;
 	}

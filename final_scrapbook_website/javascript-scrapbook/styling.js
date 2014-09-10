@@ -15,7 +15,7 @@ $("#logo").css("background-color","#cccccc");
 
 
 $(document).ready(function(){
-alert("hiii");
+//alert("hiii");
 $('#logo').hover(function(){
     $(this).attr('src','logo1.png');
 	$("#logo").css("background-color","#dbdbdb;");

@@ -1,7 +1,7 @@
 $(document).ready(function()
 {
 
-alert("hi i m on 2nd page");
+//alert("hi i m on 2nd page");
 function getParameterByName(name) {
     name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
     var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
@@ -10,7 +10,7 @@ function getParameterByName(name) {
 }
 
 var prodId = getParameterByName('name');
-alert(prodId);
+//alert(prodId);
 for( i=0;i<obj.details.length;i++)
 				{
 				                if (obj.details[i].firstName==prodId)
@@ -22,8 +22,8 @@ for( i=0;i<obj.details.length;i++)
 					            } 
 							  
 				}
-				alert(img);
-				alert(data);
+			//	alert(img);
+			//	alert(data);
 				document.getElementById("asd").innerHTML="";
 				document.getElementById("img1").src=img;
 				document.getElementById("asd").innerHTML=data;

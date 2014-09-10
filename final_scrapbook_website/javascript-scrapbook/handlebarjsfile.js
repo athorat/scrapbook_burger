@@ -1,5 +1,5 @@
 $(document).ready(function(){
-alert("new");
+//alert("new");
 
 var test = '{"thumb":['
 +'{"title":" Rachie Babe 20-Aug-14 ","path":"details2.html?name=firstThumb","images":"images/d1.jpg" },'
@@ -19,7 +19,7 @@ var obj3=$("#sat2").html();
 var obj2=Handlebars.compile(obj3);
 
 $("#MainRow").append(obj2(obj1));
-alert(test);
+//alert(test);
 
 
 $('a img').animate({
