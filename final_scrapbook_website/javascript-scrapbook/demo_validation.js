@@ -1,6 +1,8 @@
 var emailpattern = /^([a-zA-Z0-9_.-])+@([a-zA-Z0-9_.-])+\.([a-zA-Z])+([a-zA-Z])+/;
 
 var namepattern = /^[a-zA-Z ]+$/;
+
+
   
 
 function validateForm1()

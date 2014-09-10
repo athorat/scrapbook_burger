@@ -2,20 +2,7 @@
 
 function validateForm()
 {
-// var passwordpattern = /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$/;
 
-// var pass_txt = $("#password").val();
-  // if(!passwordpattern.test(pass_txt))
-  // {
-  // $("#password").focus();
-  // $("#5").html("enter valid password");
-  // return false;
-  
-  // }
-  // else
-  // {
-  // $("#5").html(" ");
-  // }
 
 	var namepattern = /^[a-zA-Z ]+$/;
 
