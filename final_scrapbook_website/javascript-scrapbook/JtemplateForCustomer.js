@@ -1,7 +1,3 @@
-
-$(document).ready(function () {
-          
-          
 function loadCustomerDetails(){
 	 var deal = {
                 dealNO: 'deal_cmf_8010 ',
@@ -20,6 +16,3 @@ function loadCustomerDetails(){
 
             $("#resultDiv").processTemplate(deal);
 }
-
-loadCustomerDetails();
-      });
