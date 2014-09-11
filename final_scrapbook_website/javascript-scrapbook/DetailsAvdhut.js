@@ -161,3 +161,22 @@ var data;
 
             } );
 });*/
+
+$(document).ready(function () {
+
+            $('a img').animate({
+                opacity: .4
+            });
+
+            $('a img').hover(function () {
+                $(this).stop().animate({
+                    opacity: 1
+                });
+
+            }, function () {
+                $(this).stop().animate({
+                    opacity: .4
+                });
+            });
+
+        });
