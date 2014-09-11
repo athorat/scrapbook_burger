@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+﻿1<!DOCTYPE html>
 <html lang="en">
   <head>
    
@@ -11,30 +11,10 @@
     <link href="css-scrapbook/main.css" rel="stylesheet">
 
 
-<<<<<<< HEAD
-
-
-
-	 
-	 
-
-     <!--  <script src="validation1.js"></script>   -->
-
-	 
-
-
-	 
-
-	  <script src="javascript-scrapbook/demo_validation.js"></script> 
-=======
- 
-	 
-	 <!--  <script src="javascript-scrapbook/demo_validation.js"></script>  -->
-	  <script src="javascript-scrapbook/customer_validation.js"></script> 
->>>>>>> origin/master
 	 
 	 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
  <script src="javascript-scrapbook/styling.js"></script>
+  <script src="javascript-scrapbook/customer_validation.js"></script>
 
  <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=PT+Sans:400,700'>
         <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Oleo+Script:400,700'>
@@ -671,34 +651,9 @@ function storeCust(){
 		var taddress =document.getElementById("taddress").value;
 		var paddress =document.getElementById("paddress").value;
 		 cust =new Customer(fname,lname,cno,email,taddress,paddress);
-		/* alert(cust.fname);
-		 if (typeof(Storage) != "undefined") {
-		// Store
-		var y=JSON.stringify(cust));
-		alert(x);
-		localStorage.setItem("cust",y);
-		// Retrieve
-		//alert(localStorage.getItem(cust));
-		var localObj = JSON.parse(localStorage.getItem(cust));
-		alert(localObj);
-		}*/
+		
 });
-/*$(document).ready(function(){
-  $("#s1").click(storeCust())
-  
-<<<<<<< HEAD
-		var x =document.getElementById("firstname").value;
-	
-		if (typeof(Storage) != "undefined") {
-		
-		localStorage.setItem("fn",x);
-		alert(x);
-		// Retrieve
-		
-		}
-=======
->>>>>>> parent of 015cad0... final changes by me
-  });*/
+
   $("#radiobtn input[type=radio]").each(function(i){
     $(this).click(function () {
     	if(i==1) {
