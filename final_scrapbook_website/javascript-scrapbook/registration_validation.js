@@ -22,7 +22,7 @@ function validateForm()
 	var dname = $("#deal_name").val();
 	if(!namepattern.test(dname))
 	{
-	$("#deal_name").focus();
+	//$("#deal_name").focus();
 	$("#1").html("enter deal name");
 	return false;
 	}
@@ -36,7 +36,7 @@ function validateForm()
 	var passwd = $("#password").val();
 	if(!passwordpattern.test(passwd))
 	{
-	$("#password").focus();
+	//$("#password").focus();
 	$("#2").html("enter your password");
 	return false;
 	}
@@ -48,7 +48,7 @@ function validateForm()
 	var c_passwd = $("#re_password").val();
   if(c_passwd != (passwd))
   {
-  $("#re_password").focus();
+  //$("#re_password").focus();
   $("#10").html("password does'nt match")
   return false;
   }
@@ -62,7 +62,7 @@ function validateForm()
 	var img = $("#image").val();
 	if(img=="")
 	{
-	$("#image").focus();
+	//$("#image").focus();
 	$("#3").html("enter image");
 	return false;
 	}
@@ -76,7 +76,7 @@ function validateForm()
 	var dprice = $("#price").val();
 	if(!numberpattern.test(dprice))
 	{
-	$("#price").focus();
+	//$("#price").focus();
 	$("#4").html("enter price");
 	return false;
 	}
@@ -88,7 +88,7 @@ function validateForm()
 	var d_discount = $("#discount").val();
 	if(!numberpattern.test(d_discount))
 	{
-	$("#discount").focus();
+	//$("#discount").focus();
 	$("#5").html("enter discount");
 	return false;
 	}
@@ -100,7 +100,7 @@ function validateForm()
 	var c_name = $("#contact_name").val();
 	if(!namepattern.test(c_name))
 	{
-	$("#contact_name").focus();
+	//$("#contact_name").focus();
 	$("#6").html("enter name");
 	return false;
 	}
@@ -115,7 +115,7 @@ function validateForm()
 	var d_email = $("#dealer_email").val();
 	if(!patt.test(d_email))
 	{
-	$("#dealer_email").focus();
+	//$("#dealer_email").focus();
 	$("#7").html("enter email id");
 	return false;
 	}
@@ -129,7 +129,7 @@ function validateForm()
 	var c_no = $("#contact_no").val();
 	if(!contactno_pattern.test(c_no))
 	{
-	$("#contact_no").focus();
+	//$("#contact_no").focus();
 	$("#8").html("enter contact no");
 	return false;
 	}
