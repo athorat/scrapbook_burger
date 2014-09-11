@@ -5,49 +5,7 @@ var namepattern = /^[a-zA-Z ]+$/;
 
 function validateForm1()
 {
-// {
-	// firstname();
-	// lastname();
-	// number();
-	// email();
-			
-	// password();
 
-   
-
-    // var flag = true;
-
-    // if (firstname())
-	// {
-        // flag = false;
-    // }
-    // if (lastname())
-	// {
-        // flag = false;
-    // }
-    // if (number()) 
-	// {
-        // flag = false;
-    // }
-	// if (email())
-	// {
-        // flag = false;
-    // }
-	
-	
-	// if (password())
-	// {
-        // flag = false;
-    // }
- 
- 
- 
-    // return flag;
-
-// }
-
-// function firstname()
-// {
      var namepattern = /^[a-zA-Z ]+$/;
 	var fname = $("#firstname").val();
   if(!namepattern.test(fname))
